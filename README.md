@@ -1,46 +1,50 @@
-# 🧠 Depression and Exercise Prediction 🏋️‍♀️
+# 🧠 Depression Prediction using Machine Learning
 
-This project analyzes the relationship between exercise habits and depression levels using data from Kaggle. The goal is to build a machine learning model that predicts depression based on physical activity and other health-related features.
+This project focuses on predicting depression using health and demographic data from a Kaggle dataset. The goal is to build a classification model that can identify whether a person is likely to be depressed based on their responses and attributes.
 
 ## 📊 Dataset
 
-- Source: [Kaggle - Depression and Exercise](https://www.kaggle.com/) *(insert link to dataset here)*
-- Includes features like:
-  - Physical activity levels
-  - Sleep habits
-  - Demographics
-  - Reported depression symptoms
+- **Source:** [Kaggle - Depression Dataset](https://www.kaggle.com/) *(insert actual dataset link if available)*
+- Contains features like:
+  - Age, Gender
+  - Mental health symptoms
+  - Physical health indicators
+  - Survey answers
 
-## ⚙️ Project Steps
+## 🧹 Data Preprocessing
 
-1. **Data Cleaning**  
-   - Removed missing values  
-   - Categorical encoding  
-   - Feature scaling
+- Handled missing values  
+- Converted categorical values using Label Encoding / One-Hot Encoding  
+- Normalized numerical features  
 
-2. **Exploratory Data Analysis (EDA)**  
-   - Correlation analysis  
-   - Distribution plots  
+## 🧠 Model Training
 
-3. **Modeling**  
-   - Models used: `Logistic Regression`, `Random Forest`, `XGBoost`  
-   - Evaluated with metrics like Accuracy, Precision, Recall, F1-score
+- Models used:
+  - Logistic Regression
+  - Decision Tree
+  - Random Forest
+- Evaluation metrics:
+  - Accuracy
+  - Precision
+  - Recall
+  - F1-score
 
-4. **Best Result**  
-   - Model: Random Forest  
-   - Accuracy: **XX%** *(fill your score here)*
+## ✅ Best Result
 
-## 🛠️ Technologies Used
-
-- Python 🐍
-- Pandas
-- NumPy
-- scikit-learn
-- Matplotlib & Seaborn
-- XGBoost
+- **Model:** *(e.g. Random Forest)*
+- **Accuracy:** *XX%*  
+- *(Fill in your actual score here)*
 
 ## 📁 Files
 
-- `depression.ipynb` – Main notebook with all code
-- `train.csv`, `test.csv` – Data files
-- `README.md` – Project summary
+- `Depression.ipynb` — Main Jupyter notebook
+- `train.csv`, `test.csv` — Dataset files
+- `README.md` — This file
+
+## 🛠️ Libraries Used
+
+- Python 🐍  
+- pandas  
+- numpy  
+- matplotlib / seaborn  
+- scikit-learn  
